@@ -14,9 +14,7 @@ const projects = [
     description:
       'เกมทายคำศัพท์ที่พัฒนาขึ้นเพื่อส่งเสริมความสนุกและการพัฒนาทักษะทางภาษาให้กับผู้เล่นโดยการใช้ตัวเลือกคำศัพท์ที่หลากหลายและโหมดการเล่นที่เข้าใจง่าย',
     images: [
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80',
+      '/word-game-screenshot.png',
     ],
     bullets: [
       'พัฒนาแอปพลิเคชันร่วมกับทีม 7 คน และแบ่งหน้าที่ชัดเจนตามความถนัดของแต่ละคน',
@@ -37,9 +35,15 @@ const projects = [
     description:
       'ระบบจัดการเอกสารภายในที่ช่วยให้การเก็บข้อมูลและเรียกใช้เอกสารเป็นไปอย่างเป็นระเบียบ ปลอดภัย และเข้าถึงได้ง่ายทั้งภายในองค์กร',
     images: [
-      'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
+      '/_2569-09-09__22.02.48.png',
+      '/_2569-09-10__23.10.29.png',
+      '/_2569-09-09__22.03.52.png',
+      '/_2569-09-10__23.18.36.png',
+      '/_2569-09-10__23.11.42.png',
+      '/_2569-09-10__23.11.54.png',
+      '/_2569-09-10__23.12.06.png',
+      '/_2569-09-10__23.12.17.png',
+      '/_2569-09-10__23.12.29.png',
     ],
     bullets: [
       'พัฒนาระบบจัดการเอกสารร่วมกับทีม 5 คน โดยเน้นความเรียบง่ายและใช้งานได้จริง',
@@ -60,9 +64,12 @@ const projects = [
     description:
       'ระบบร้านอาหารและแคชเชียร์ที่ถูกพัฒนาขึ้นเพื่อช่วยบริหารการขาย สต๊อกสินค้า และการทำงานภายในร้านแบบมีประสิทธิภาพ',
     images: [
-      'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
+      '/_2569-09-05__22.09.13.png',
+      '/_2569-09-09__22.14.13.png',
+      '/_2569-09-10__23.29.20.png',
+      '/_2569-09-10__23.29.49.png',
+      '/_2569-09-10__23.30.48.png',
+      '/_2569-09-10__23.33.37.png',
     ],
     bullets: [
       'สร้างระบบด้วยตนเองทั้งหมด โดยเริ่มจากการวางโครงสร้างระบบจนถึงการออกแบบหน้าแคชเชียร์',
@@ -82,10 +89,11 @@ const projects = [
     description:
       'เว็บไซต์จองตั๋วหนังที่ออกแบบเพื่อให้งานจองตั๋วเป็นเรื่องง่ายและรวดเร็ว ด้วยการใช้งานที่เรียบง่ายและการจัดการข้อมูลที่มีประสิทธิภาพ',
     images: [
-      'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1200&q=80',
+      '/_2569-09-09__22.08.01.png',
+      '/_2569-09-09__22.08.22.png',
+      '/_2569-09-09__22.08.36.png',
+      '/_2569-09-09__22.08.58.png',
+      '/8552.jpg',
     ],
     bullets: [
       'พัฒนาเว็บไซต์จองตั๋วหนังร่วมกับทีม 3 คน โดยเน้นความสะดวกและรวดเร็วต่อการใช้งาน',
@@ -147,7 +155,7 @@ function App() {
 
           <div className="profile-grid">
             <div className="profile-image-container">
-              <img src="/line_stdempimg.cfm.jpg" alt="เลิศชาย เจริญชัย" className="profile-card-img" />
+              <img src="/line_stdempimg.cfm.jpg" alt="" className="profile-card-img" />
             </div>
 
             <div className="profile-info">
