@@ -149,7 +149,7 @@ function App() {
       <main className="container">
         <section id="profile">
           <div className="section-title">
-            <h2>01 PROFILE</h2>
+            <h2>PROFILE</h2>
             <p>ประวัติส่วนตัว</p>
           </div>
 
@@ -174,7 +174,8 @@ function App() {
                 <div className="skill-item">
                   <div className="skill-header">
                     <span>มนุษยสัมพันธ์ดี</span>
-                    <span></span>
+                    <span>การจัดการข้อมูล </span>
+                    <span>วิเคราะห์ข้อมูล</span>
                   </div>
     
                 </div>
@@ -182,6 +183,7 @@ function App() {
                 <div className="skill-item">
                   <div className="skill-header">
                     <span>ทำงานเป็นทีมได้ดี</span>
+                    <span>วางแผนกระบวนการ</span>
                     <span></span>
                   </div>
                   
@@ -189,7 +191,8 @@ function App() {
 
                 <div className="skill-item">
                   <div className="skill-header">
-                    <span>วางแผนและรอบคอบ</span>
+                    <span>ทักษะภาษาอังกฤษ</span>
+                    <span></span>
                     <span></span>
                   </div>
                   
@@ -222,7 +225,7 @@ function App() {
 
         <section id="education">
           <div className="section-title">
-            <h2>02 EDUCATION</h2>
+            <h2>EDUCATION</h2>
             <p>ประวัติการศึกษา</p>
           </div>
 
@@ -244,7 +247,7 @@ function App() {
 
         <section id="projects">
           <div className="section-title">
-            <h2>03 CERTIFICATES &amp; PROJECTS</h2>
+            <h2>CERTIFICATES &amp; PROJECTS</h2>
             <p>ผลงานที่ประทับใจ</p>
           </div>
 
